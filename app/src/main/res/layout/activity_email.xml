@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/green3"
+    tools:context=".EmailActivity">
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@color/white"
+        app:itemIconTint="@color/forest_green"
+        app:itemTextColor="@color/black"
+        app:labelVisibilityMode="labeled"
+        app:menu="@menu/menu" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" />
+        <Button
+            android:id="@+id/button_send"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="560dp"
+            android:text="send"
+            android:textColor="@color/black" />
+
+        <EditText
+            android:id="@+id/edit_subject"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="265dp"
+            android:inputType="textEmailAddress"
+            android:padding="16dp" />
+
+        <EditText
+            android:id="@+id/edit_message"
+            android:layout_width="match_parent"
+            android:layout_height="118dp"
+            android:layout_marginTop="400dp"
+            android:gravity="start|top"
+            android:inputType="textEmailAddress"
+            android:lines="2"
+            android:padding="16dp" />
+
+        <EditText
+            android:id="@+id/edit_text_to"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="145dp"
+            android:inputType="textEmailAddress"
+            android:padding="16dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="210dp"
+            android:fontFamily="@font/roboto_bold"
+            android:padding="16dp"
+            android:text="Subject:"
+            android:textColor="@color/black"
+            android:textSize="27dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="65dp"
+            android:fontFamily="@font/roboto_bold"
+
+            android:padding="16dp"
+            android:text="Email your family, friends, and others to spread the word. Any link that is clicked will be copied to your android clipboard, where you can paste it into the message box. "
+            android:textColor="@color/black"
+            android:textSize="12.5dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="350dp"
+            android:fontFamily="@font/roboto_bold"
+            android:padding="16dp"
+            android:text="Message:"
+            android:textColor="@color/black"
+            android:textSize="27dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="115dp"
+            android:fontFamily="@font/roboto_bold"
+            android:padding="16dp"
+            android:text="To:"
+            android:textColor="@color/black"
+            android:textSize="27dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="135dp"
+            android:layout_marginTop="20dp"
+            android:fontFamily="@font/roboto_bold"
+            android:text="Email"
+            android:textColor="@color/black"
+            android:textSize="30dp" />
+</RelativeLayout>

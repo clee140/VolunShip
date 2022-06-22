@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/green4"
+    tools:context=".ClothingActivity">
+
+    <Button
+        android:id="@+id/toys_print"
+        android:layout_width="95dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="540dp"
+        android:background="@drawable/rounded_corner"
+        android:fontFamily="@font/roboto_bold"
+        android:text="@string/print_label_for_apparel"
+        android:textColor="#201F1C"
+        android:textSize="10sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <Button
+        android:id="@+id/stationary_print"
+        android:layout_width="95dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="260dp"
+        android:layout_marginTop="540dp"
+        android:background="@drawable/rounded_corner"
+        android:fontFamily="@font/roboto_bold"
+        android:text="@string/print_label_for_denim"
+        android:textColor="#201F1C"
+        android:textSize="10sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <Button
+        android:id="@+id/crayons_print"
+        android:layout_width="113dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="125dp"
+        android:layout_marginTop="540dp"
+        android:background="@drawable/rounded_corner"
+        android:fontFamily="@font/roboto_bold"
+        android:text="@string/print_label_for_baby_clothes"
+        android:textColor="#201F1C"
+        android:textSize="10sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <Button
+        android:id="@+id/shoes_print"
+        android:layout_width="110dp"
+        android:layout_height="60dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="620dp"
+        android:background="@drawable/rounded_corner"
+        android:fontFamily="@font/roboto_bold"
+        android:text="@string/print_label_for_shoes"
+        android:textColor="#201F1C"
+        android:textSize="10sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="229dp"
+            android:layout_height="210dp"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="88dp"
+            android:gravity="center_vertical"
+            android:paddingLeft="10dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/clothing3" />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="180dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="250dp"
+            android:text="@string/clothing"
+            android:textColor="@color/black"
+            android:textSize="40sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="315dp"
+            android:text="@string/donate_apparel_baby_clothes_denim_and_shoes_the_clothing_will_be_broken_down_and_transformed_into_new_materials_while_the_shoes_will_be_distributed_to_local_entrepreneurs_in_developing_countries_where_they_can_create_their_own_businesses_these_donations_will_greatly_reduce_waste_in_landfills_and_help_others_attain_a_sustainable_income" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="460dp"
+        android:text="The clothing company, Pact, will redistribute your apparel to non-profits.
+TerraCycle and Blue Jeans Go Green, will form new products from clothes.
+The non-profit Soles4Souls will distribute shoes." />
+
+    <Button
+        android:id="@+id/back_button"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:layout_marginTop="5dp"
+        android:backgroundTint="@android:color/holo_green_light"
+        android:gravity="bottom|center"
+        android:onClick="launchHomePage"
+        android:text="←"
+        android:textSize="50dp" />
+
+</RelativeLayout>

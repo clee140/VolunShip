@@ -1,0 +1,36 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">VolunShip</string>
+    <string name="settings">SETTINGS</string>
+    <string name="volunship">VolunShip</string>
+    <string name="button">Button</string>
+    <string name="next">Next</string>
+    <string name="todo" tools:ignore="DuplicateDefinition">TODO</string>
+    <string name="you_can_volunteer_right_at_home">You can volunteer right at home</string>
+    <string name="volunteer_right_at_home">Volunteer right at home</string>
+    <string name="nextbutton"><![CDATA[Next >]]></string>
+    <string name="my_hint">my_hint</string>
+    <string name="name">Name</string>
+    <string name="email_address">Email address</string>
+    <string name="email_address1">Email Address</string>
+    <string name="name1">Name</string>
+    <string name="name2">Name</string>
+    <string name="email_address2">Email Address</string>
+    <string name="sign_in">sign_in</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="search">Search</string>
+    <string name="home">Home</string>
+    <string name="add">Add</string>
+    <string name="history">History</string>
+    <string name="apparel_baby_and_denim_new_or_gently_used_shoes">Apparel - Baby and Denim, New or Gently Used Shoes</string>
+    <string name="metal_based_cookware_bakeware_and_cutlery">Metal-based cookware, bakeware, and cutlery</string>
+    <string name="cookware">Cookware</string>
+    <string name="new_or_gently_used_books">New or Gently Used Books</string>
+    <string name="books">Books</string>
+    <string name="print_label_for_shoes">Print label for shoes</string>
+    <string name="print_label_for_baby_clothes">Print label for baby clothes</string>
+    <string name="print_label_for_denim">Print label for denim</string>
+    <string name="print_label_for_apparel">Print label for apparel</string>
+    <string name="donate_apparel_baby_clothes_denim_and_shoes_the_clothing_will_be_broken_down_and_transformed_into_new_materials_while_the_shoes_will_be_distributed_to_local_entrepreneurs_in_developing_countries_where_they_can_create_their_own_businesses_these_donations_will_greatly_reduce_waste_in_landfills_and_help_others_attain_a_sustainable_income">Donate apparel, baby clothes, denim, and shoes. The clothing will be broken down and transformed into new materials, while the shoes will be distributed to local entrepreneurs in developing countries, where they can create their own businesses. These donations will greatly reduce waste in landfills and help others attain a sustainable income.</string>
+    <string name="clothing">Clothing</string>
+</resources>

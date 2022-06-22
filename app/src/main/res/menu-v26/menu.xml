@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/home"
+        android:title="Home"
+        android:icon="@drawable/ic_baseline_home_24"/>
+
+
+    <item
+        android:id="@+id/instructions"
+        android:title="Instructions"
+        android:icon="@drawable/ic_baseline_library_books_24" />
+    <item
+        android:id="@+id/charities"
+        android:title="Charities"
+        android:icon="@drawable/ic_baseline_charities_24"/>
+
+    <item
+        android:id="@+id/email"
+        android:title="Email"
+        android:icon="@drawable/ic_baseline_mail_24"/>
+</menu>
